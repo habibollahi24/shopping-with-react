@@ -1,0 +1,40 @@
+.navbarBG{
+    background-color: whitesmoke;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 3px 10px #ccc;
+    margin-bottom: 4rem;
+}
+.navbar{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+
+}
+.navbar__link a{
+    color: #2b56e2;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom:3px dotted #2b56e2;
+}
+.cart{
+position: relative;
+}
+.counter{
+    background-color: #2b56e2 ;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    text-align: center;
+    line-height: 17px;
+    position: absolute;
+    right: -5px;
+    bottom: 20px;
+    font-size: .8rem;
+}
